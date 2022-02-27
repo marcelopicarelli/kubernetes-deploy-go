@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "devops-guru:v99"
+const webContent = "devops-guru:v100"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
